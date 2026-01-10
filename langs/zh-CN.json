@@ -1,0 +1,105 @@
+{
+  "name": "简体中文",
+  "status": {
+    "status.ok": "操作成功",
+    "status.error.params.lack": "参数缺失",
+    "status.error.data.loss": "数据不存在",
+    "status.error.data.parse": "数据解析失败",
+    "status.error.data.format": "数据格式化失败",
+    "status.error.data.parse.json": "JSON 解析失败",
+    "status.error.file.load": "加载文件失败",
+    "status.error.file.read": "读取文件失败",
+    "status.error.file.write": "写入文件失败",
+    "status.error.file.delete": "删除文件失败",
+    "status.error.file.unmarshal": "反序列化文件失败",
+    "status.error.file.not_found": "文件不存在",
+    "status.error.file.access_denied": "文件访问被拒绝",
+    "status.error.db.query": "数据库查询失败",
+    "status.error.db.save": "保存数据失败",
+    "status.error.db.update": "更新数据失败",
+    "status.error.db.delete": "删除数据失败",
+    "status.error.db.create": "创建数据库失败",
+    "status.error.db.init.library": "初始化数据库库失败",
+    "status.error.db.init.table": "初始化数据表失败",
+    "status.error.pty.create": "创建伪终端失败",
+    "status.error.pty.pipe": "终端管道错误",
+    "status.error.ssh.disconnect": "SSH 连接已断开",
+    "status.error.ssh.connect": "SSH 连接失败",
+    "status.error.ssh.session": "SSH 会话创建失败",
+    "status.error.ssh.pty": "SSH 伪终端分配失败",
+    "status.error.ssh.shell": "启动 SSH Shell 失败",
+    "status.error.ssh.node_not_found": "未找到节点信息",
+    "status.error.ssh.welcome_not_received": "未收到服务器欢迎信息",
+    "status.error.ssh.stdout": "读取标准输出失败",
+    "status.error.ssh.stderr": "读取错误输出失败",
+    "status.error.ssh.stdin": "写入标准输入失败",
+    "status.error.sftp.connect": "SFTP 连接失败",
+    "status.error.invalid_input": "输入无效",
+    "status.error.os.not_supported": "当前操作系统不支持此功能",
+    "status.error.os.not_supported.exec": "操作系统不支持执行程序",
+    "status.error.os.not_supported.exec_command": "操作系统不支持执行命令",
+    "status.error.os.not_supported.exec_command_with_output": "操作系统不支持执行命令并获取输出",
+    "status.error.os.not_supported.read_path": "路径读取失败",
+    "status.error.app.latest": "当前已是最新版本",
+    "status.error.app.check_upgrade_failed": "检查更新失败",
+    "status.error.app.download_failed": "下载更新包失败",
+    "status.error.app.mount_failed": "挂载安装包失败",
+    "status.error.app.mount_lost": "挂载点丢失",
+    "status.error.app.unmount_failed": "卸载安装包失败",
+    "status.error.app.package": "安装包损坏或格式错误",
+    "status.error.app.upgrade_failed": "应用升级失败",
+    "status.error.unknown": "未知错误"
+  },
+  "ui": {
+    "search": "搜索",
+    "tray": {
+      "open": "打开",
+      "preferences": "偏好设置",
+      "check_update": "检查更新",
+      "support": "支持",
+      "question": "常见问题",
+      "github": "GitHub",
+      "home": "主页",
+      "thanks": "鸣谢",
+      "license": "许可",
+      "about": "关于",
+      "quit": "退出"
+    },
+    "home": {
+      "new": "新的",
+      "tiny_tools": "小工具",
+      "history_shell": "历史命令",
+      "edit_host": "host编辑",
+      "my_ip": "我的ip",
+      "more": "需求",
+      "share": "分享",
+      "os_info": "系统信息"
+    },
+    "edit_host": {
+      "submit": "提交",
+      "cancel": "取消"
+    },
+    "share": {
+      "file_name": "文件名",
+      "file_path": "拖动文件到窗口来分享",
+      "warn": "本工具仅支持内网文件分享，请勿上传敏感信息。"
+    },
+    "my_ip": {
+      "inner_ip": "内网IP",
+      "ip": "IP",
+      "country": "国家",
+      "province": "省份",
+      "city": "城市",
+      "isp": "运营商"
+    },
+    "history_shell": {
+      "cmd": "命令"
+    }
+  },
+  "kernel": {
+    "pop": {
+      "under_development":"该功能尚未开放",
+      "under_invalid": "暂不支持"
+    }
+  }
+}
