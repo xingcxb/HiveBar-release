@@ -1,5 +1,5 @@
 <p align="center" style="text-align: center">
-  <img src="logo.png" width="500px" width="55%" style="align=center">
+  <img src="logo.png" width="300px" width="55%" style="align=center">
 </p>
 
 # HiveBar-release
